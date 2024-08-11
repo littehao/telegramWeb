@@ -1,0 +1,88 @@
+.exchange-page{
+ font-size: 20px;
+ .ex-top{
+  padding-bottom: 100px;
+  background-image: url('@/assets/images/homebg.png');
+  background-size: 100% 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  .userimg{
+   width:120px;
+   height:120px;
+   border: 4px solid $color3;
+  }
+  .progressBox{
+   width:420px; 
+   .progressOut{
+    height: 16px;
+   }
+  }
+  .textbg{
+   width:130px;
+   height:50px;
+   line-height: 50px;
+   background-image: url('@/assets/images/textbg1.png');
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+  }
+  .optImg{
+   width:84px;
+   height: 84px;
+  }
+  .roleimg{
+   width:400px;
+   height:520px;
+  }
+ }
+ .ex-bottom{
+  .number-money{
+   height: 160px;
+   margin-top: -80px;
+   background-image: url('@/assets/images/textbg2.png');
+   background-size: 100% 100%;
+   background-position: center top;
+   background-repeat: no-repeat;
+   .coinimg{
+    width:72px;
+    height:72px;
+    background-image: url('@/assets/images/money2.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+   .nlc{
+    width:40px;
+    height:40px;
+    background-image: url('@/assets/images/nengliangshi.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   }
+  }
+  .taskItem{
+   width:216px;
+   > .status{
+    height: 64px;
+    line-height: 64px;
+    background-size: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    &.normal{
+     background-image: url('@/assets/images/status2.png');
+    }
+    &.urgent{
+     background-image: url('@/assets/images/status3.png');
+    }
+    &.complete{
+     background-image: url('@/assets/images/status1.png');
+    }
+   }
+  }
+  .task-img{
+   width: 100px;
+   height:100px;
+   margin-top:-50px;
+  }
+ }
+}

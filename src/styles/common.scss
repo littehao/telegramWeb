@@ -1,0 +1,149 @@
+body,
+html,
+textarea {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+div,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#root{
+  width:100%;
+  background-color: $bgColor1;
+}
+
+.h-100vh{
+  height: 100vh;
+}
+.mh-100vh{
+  min-height: 100vh;
+}
+.h-100{
+  height: 100%;
+}
+.w-100{
+  height: 100%;
+}
+
+
+/*字体大小*/
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-20 {
+	font-size: 20px;
+}
+
+.fs-24 {
+	font-size: 24px;
+}
+
+.fs-26 {
+	font-size: 26px;
+}
+
+.fs-28 {
+	font-size: 28px;
+}
+
+.fs-30 {
+	font-size: 30px;
+}
+
+.fs-32 {
+	font-size: 32px;
+}
+
+.fs-36 {
+	font-size: 36px;
+}
+
+.fs-40 {
+	font-size: 40px;
+}
+
+.fs-44 {
+	font-size: 44px;
+}
+
+.fs-48 {
+	font-size: 48px;
+}
+
+.fs-52 {
+	font-size: 52px;
+}
+
+.fs-56 {
+	font-size: 56px;
+}
+
+.fs-60 {
+	font-size: 60px;
+}
+.fs-72{
+	font-size:72px;
+}
+.fs-96 {
+	font-size: 96px;
+}
+
+/*字体颜色*/
+.font-white{
+  color:$white;
+}
+.fontColor1{
+ color:$color1;
+}
+.fontColor2{
+  color:$color2;
+ }
+ .fontColor3{
+  color:$color3;
+ }
+ .fontColor5{
+  color:$color5;
+ }
+
+ /*背景颜色*/
+.bgColor2{
+  background-color: $bgColor2;
+}
+.bgColor3{
+  background-color: $bgColor3;
+}
+.bgColor4{
+  background-color: $bgColor4;
+}
+.bgColor5{
+  background: $bgColor5;
+}
+.bgColor6{
+  background: $bgColor6;
+}

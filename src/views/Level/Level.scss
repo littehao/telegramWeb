@@ -1,0 +1,26 @@
+.levelPage{
+    @mixin bg-normal{
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .skin-show{
+        width: 260px;
+        height: 286px;
+        background-image: url('@/assets/images/skin_bg.png');
+        @include bg-normal;
+        .skin-img{
+            width: 256px;
+            height: 336px;
+        }
+    }
+    .progress-show{
+        width: 466px;
+        height: 142px;
+        background-image: url('@/assets/images/progress_bg.png');
+        @include bg-normal;
+    }
+    .progressOut{
+        height: 16px;
+    }
+}
