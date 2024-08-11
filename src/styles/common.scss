@@ -118,6 +118,9 @@ li {
 .font-white{
   color:$white;
 }
+.font-black{
+  color:$black;
+}
 .fontColor1{
  color:$color1;
 }
@@ -129,6 +132,15 @@ li {
  }
  .fontColor5{
   color:$color5;
+ }
+ .fontColor6{
+  color:$color6;
+ }
+ .fontColor7{
+  color:$color7;
+ }
+ .fontColor8{
+  color:$color8;
  }
 
  /*背景颜色*/
@@ -146,4 +158,10 @@ li {
 }
 .bgColor6{
   background: $bgColor6;
+}
+.bgColor7{
+  background: $bgColor7;
+}
+.bgColor8{
+  background: $bgColor8;
 }

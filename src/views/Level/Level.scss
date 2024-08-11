@@ -1,26 +1,78 @@
 .levelPage{
     @mixin bg-normal{
         background-size: 100%;
-        background-position: center;
         background-repeat: no-repeat;
+    }
+    .level-top{
+        padding-top:150px;
+        padding-bottom: 100px;
     }
     .skin-show{
         width: 260px;
         height: 286px;
+        z-index: 2;
         background-image: url('@/assets/images/skin_bg.png');
+        background-position: center;
         @include bg-normal;
         .skin-img{
             width: 256px;
             height: 336px;
+            margin-top:-100px;
         }
     }
     .progress-show{
         width: 466px;
         height: 142px;
+        margin-left: -40px;
+        padding-left: 70px;
         background-image: url('@/assets/images/progress_bg.png');
+        background-position: center;
         @include bg-normal;
     }
     .progressOut{
         height: 16px;
+    }
+    .pro-three{
+        padding-bottom: 144px;
+        background-image: url('@/assets/images/level_tai.png');
+        background-position: center bottom;
+        @include bg-normal;
+        .userimg1{
+            width: 128px;
+            height: 128px;
+            margin-top:-64px;
+            border: 4px solid $color3;
+        }
+        .userimg2{
+            width: 96px;
+            height: 96px;
+            margin-top:-48px;
+            border: 4px solid $color3;
+        }
+        .twoth{
+            width: 160px;
+            height: 190px;
+            position: relative;
+            top:50px;
+            background-image: url('@/assets/images/level_2.png');
+            background-position: center bottom;
+            @include bg-normal;
+        }
+        .oneth{
+            width: 192px;
+            height: 210px;
+            background-image: url('@/assets/images/level_1.png');
+            background-position: center bottom;
+            @include bg-normal;
+        }
+        .threeth{
+            width: 160px;
+            height: 190px;
+            position: relative;
+            top:70px;
+            background-image: url('@/assets/images/level_3.png');
+            background-position: center bottom;
+            @include bg-normal;
+        }
     }
 }
